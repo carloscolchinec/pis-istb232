@@ -10,30 +10,30 @@
 
 *FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE COLABORADORES DEL GADE*
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/a7310713-6fa4-4c14-96f2-fce7b5e55ef1)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/70ffbeee-e20b-46d3-b878-5807ba8ae915)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/f7490bad-b41d-4c34-a90e-e7b534ef7b11)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/580bd520-096e-4625-94ff-3e038dede63c)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/27f3f80c-b142-40d5-9abc-4e1808da1e61)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/15180366-f5e9-441f-b284-076c6c52fb4d)
 
 
 *FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE EMPRESAS*
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/6f17f3f7-fdca-469a-99d1-371bc68d2344)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/053ac403-3705-47d8-aa81-d8becf45775b)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/feaa0da3-acd8-4587-8873-a8637347acb9)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/625ee5af-0c2b-4cc6-b039-3fb62c4ce244)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/f035c141-4f71-48a2-9a79-b2e8dcd94b12)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/e3c8896c-c59a-4bdb-80d6-c94fcccd014c)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/4e5a84a7-df69-4213-b1fe-3b73c6b76159)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/bd98e85e-93b7-4937-bdbf-e2860e5d81f3)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/b0b5d69f-19af-4c9e-8719-7ed92aaaf745)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/68387c08-c042-4f38-b181-dd669b6a88a3)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/75e234a4-3903-45f5-b24b-65f822d8014a)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/4fcfcc31-6989-4f2b-9dc3-43e487eb4faf)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/5f6613ba-12b3-4a81-9738-39f35752ff9f)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/7254c2f3-7905-4333-bc59-ecb14d2b086e)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/98330a59-50c0-4670-9e3b-fd706d2b744b)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/c228983d-7b6f-44a3-97de-cfe788e2ce55)
 
 *DML DE LA BASE DE DATOS DEL SISTEMA*
 
