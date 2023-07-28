@@ -30,11 +30,18 @@
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/68387c08-c042-4f38-b181-dd669b6a88a3)
 
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/c33984a1-5a14-47ff-9353-5420d45c005f)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/5e40c1ce-e997-4329-9f31-da8276d1a16c)
+
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/4fcfcc31-6989-4f2b-9dc3-43e487eb4faf)
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/7254c2f3-7905-4333-bc59-ecb14d2b086e)
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/c228983d-7b6f-44a3-97de-cfe788e2ce55)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/7b0fc23d-f360-4360-a506-b998eae2778f)
+
 
 *DML DE LA BASE DE DATOS DEL SISTEMA*
 
