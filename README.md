@@ -18,6 +18,9 @@
 
 
 *FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE EMPRESAS*
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/6f17f3f7-fdca-469a-99d1-371bc68d2344)
+
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/feaa0da3-acd8-4587-8873-a8637347acb9)
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/f035c141-4f71-48a2-9a79-b2e8dcd94b12)
