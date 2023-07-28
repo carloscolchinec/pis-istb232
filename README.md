@@ -10,6 +10,12 @@
 
 *FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE COLABORADORES DEL GADE*
 
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/a7310713-6fa4-4c14-96f2-fce7b5e55ef1)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/f7490bad-b41d-4c34-a90e-e7b534ef7b11)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/27f3f80c-b142-40d5-9abc-4e1808da1e61)
+
 
 *FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE EMPRESAS*
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/feaa0da3-acd8-4587-8873-a8637347acb9)
