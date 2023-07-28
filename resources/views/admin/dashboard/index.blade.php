@@ -22,7 +22,7 @@
         </section> -->
 
         <div class="container">
-            <img style="width: 70%" src="{{ asset('img/logo2.png') }}" alt="">
+            <img style="width: 70%" src="{{ asset('img/logo.png') }}" alt="">
         </div>
 
     </div>

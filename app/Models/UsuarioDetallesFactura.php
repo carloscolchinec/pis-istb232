@@ -26,10 +26,9 @@ class UsuarioDetallesFactura extends Model
     }
 
     // Método para crear un nuevo detalle de factura asociado a una factura
-    public static function crearDetalleFactura($cedula_ruc, $factura_id, $nombre_producto, $precio_producto, $stock_producto)
+    public static function crearDetalleFactura($factura_id, $nombre_producto, $precio_producto, $stock_producto)
     {
         return self::create([
-            'cedula_ruc' => $cedula_ruc,
             'factura_id' => $factura_id,
             'nombre_producto' => $nombre_producto,
             'precio_producto' => $precio_producto,

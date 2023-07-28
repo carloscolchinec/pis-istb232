@@ -1,16 +1,15 @@
 <?php
 
-
 namespace App\Http\Controllers\Emp;
 
 use App\Http\Controllers\Controller;
 use App\Models\UsuarioClientes;
 use App\Models\UsuarioFactura;
 use App\Models\UsuarioProductos;
-
-
 use App\Models\UsuarioDetallesFactura;
 use Illuminate\Http\Request;
+
+
 
 class ClientesFacturasController extends Controller
 {
@@ -34,6 +33,7 @@ class ClientesFacturasController extends Controller
     // Método para almacenar una nueva factura en la base de datos
     public function store(Request $request)
     {
+        // Validación de los campos requeridos
         $request->validate([
             'cedula_cliente' => 'required|string',
             'total_factura' => 'required|numeric|min:0',
@@ -54,15 +54,16 @@ class ClientesFacturasController extends Controller
             $request->fecha_factura
         );
 
+
         // Obtenemos los detalles de la factura (productos) y los almacenamos
         foreach ($request->nombre_producto as $index => $nombre_producto) {
-            UsuarioDetallesFactura::crearDetalleFactura(
-                $cedula_ruc,
-                $factura->id_factura,
-                $nombre_producto,
-                $request->precio_producto[$index],
-                $request->stock_producto[$index]
-            );
+            // Crear el detalle de la factura asociado a la factura creada
+            $detalleFactura = UsuarioDetallesFactura::create([
+                'factura_id' => $factura->id_factura,
+                'nombre_producto' => $nombre_producto,
+                'precio_producto' => $request->precio_producto[$index],
+                'stock_producto' => $request->stock_producto[$index],
+            ]);
         }
 
         return redirect()->route('enterprise.facturas.index')->with('success', 'Factura creada exitosamente.');
@@ -89,6 +90,7 @@ class ClientesFacturasController extends Controller
     {
         $factura = UsuarioFactura::findOrFail($id);
 
+        // Validación de los campos requeridos
         $request->validate([
             'cedula_cliente' => 'required|string',
             'total_factura' => 'required|numeric|min:0',
@@ -112,7 +114,7 @@ class ClientesFacturasController extends Controller
         foreach ($request->nombre_producto as $index => $nombre_producto) {
             UsuarioDetallesFactura::crearDetalleFactura(
                 $factura->cedula_ruc,
-                $id,
+                $id, // Asignamos el ID de la factura aquí
                 $nombre_producto,
                 $request->precio_producto[$index],
                 $request->stock_producto[$index]
@@ -125,8 +127,17 @@ class ClientesFacturasController extends Controller
     // Método para eliminar una factura de la base de datos
     public function destroy($id)
     {
+        // Buscar la factura por su ID
         $factura = UsuarioFactura::findOrFail($id);
+
+        // Eliminar los detalles de la factura asociados
+        UsuarioDetallesFactura::where('factura_id', $factura->id_factura)->delete();
+
+        // Eliminar la factura
         $factura->delete();
+
         return redirect()->route('enterprise.facturas.index')->with('success', 'Factura eliminada exitosamente.');
     }
+    
+  
 }

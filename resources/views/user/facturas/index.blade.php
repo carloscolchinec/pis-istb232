@@ -28,7 +28,6 @@
                         <td>{{ $factura->fecha_factura }}</td>
                         <td>
                             <a href="{{ route('enterprise.facturas.show', $factura->id_factura) }}" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                            <a href="{{ route('enterprise.facturas.edit', $factura->id_factura) }}" class="btn btn-primary"><i class="fas fa-edit"></i></a>
                             <form action="{{ route('enterprise.facturas.destroy', $factura->id_factura) }}" method="POST" style="display: inline-block;">
                                 @csrf
                                 @method('DELETE')

@@ -74,7 +74,7 @@
             <!-- Brand Logo -->
             <a href="#" class="brand-link">
                 <!-- Agrega el logo de la empresa aquí (ruta pública) -->
-                <img src="{{asset('img/logo1.png')}}" alt="Logo" class="brand-image">
+                <img src="{{asset('img/logo.png')}}" alt="Logo" class="brand-image">
                 <span class="brand-text font-weight-bold">GADE</span>
             </a>
 

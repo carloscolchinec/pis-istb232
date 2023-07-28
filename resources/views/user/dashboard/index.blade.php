@@ -13,9 +13,15 @@
         min-height: 89vh;
     }
 </style>
+  <div class="container-section-center">
+  <div class="container text-center">
 
 
-<div class="container">
-    xd
-</div>
+        <div class="container">
+            <img style="width: 70%" src="{{ asset('img/logo.png') }}" alt="">
+        </div>
+
+    </div>
+  </div>
+
 @endsection
