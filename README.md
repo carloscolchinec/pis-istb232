@@ -12,4 +12,17 @@
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/f594dcef-cec1-4827-94e9-3cc0cc99d411)
 
-![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/de921cf8-52c9-45fb-b721-830554a3fe14)
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/ab232aee-7a12-4dfa-b11a-049d7a9c4c86)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/1ede453d-9162-408e-a2c1-e5ed0528e957)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/79928864-4120-48db-b61a-914d7d38b946)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/016c0eea-b951-401f-b909-d27b35e50e02)
+
+
+
+
+
+
+
