@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Login Administrador')
+@section('title', 'Login Empresa')
 
 @section('content')
 
@@ -31,10 +31,10 @@
                 </div>
                 @endif
 
-                <form action="{{ route('admin.login') }}" method="post">
+                <form action="{{ route('enterprise.check') }}" method="post">
                     @csrf
                     <div class="input-group mb-3">
-                        <input type="text" name="cedula" class="form-control" placeholder="Cédula" required>
+                        <input type="text" name="cedula_ruc" class="form-control" placeholder="Cédula" required>
                     </div>
                     <div class="input-group mb-3">
                         <input type="password" name="password" class="form-control" placeholder="Contraseña" required>

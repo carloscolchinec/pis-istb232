@@ -15,6 +15,7 @@ class CreateTbUsuarioProductosCategoriasTable extends Migration
     {
         Schema::create('tb_Usuario_Productos_Categorias', function (Blueprint $table) {
             $table->id('id_categoria');
+            $table->string('cedula_ruc');
             $table->string('nombre_categoria');
             $table->timestamps();
         });

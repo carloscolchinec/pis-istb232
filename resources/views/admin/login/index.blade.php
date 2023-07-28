@@ -31,7 +31,7 @@
                 </div>
                 @endif
 
-                <form action="{{ route('admin.login') }}" method="post">
+                <form action="{{ route('admin.check') }}" method="post">
                     @csrf
                     <div class="input-group mb-3">
                         <input type="text" name="cedula" class="form-control" placeholder="Cédula" required>

@@ -15,9 +15,11 @@ class CreateTbUsuarioProductosTable extends Migration
     {
         Schema::create('tb_Usuario_Productos', function (Blueprint $table) {
             $table->id('id_producto');
+            $table->string('cedula_cliente');
             $table->string('codigo_producto');
             $table->string('nombre_producto');
             $table->text('descripcion_producto');
+            $table->double('precio_unitario', 8, 2);
             $table->date('fecha_de_caducidad');
             $table->integer('stock_producto');
             $table->unsignedBigInteger('categoria_id');

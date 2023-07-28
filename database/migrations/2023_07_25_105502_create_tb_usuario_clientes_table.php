@@ -16,6 +16,7 @@ class CreateTbUsuarioClientesTable extends Migration
         Schema::create('tb_Usuario_Clientes', function (Blueprint $table) {
             $table->id('id_cliente');
             $table->string('cedula_cliente')->unique();
+            $table->string('id_empresa');
             $table->string('nombre');
             $table->string('apellido');
             $table->string('email');

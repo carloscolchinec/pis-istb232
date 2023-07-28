@@ -15,6 +15,7 @@ class CreateTbUsuarioDetallesFacturasTable extends Migration
     {
         Schema::create('tb_Usuario_DetallesFacturas', function (Blueprint $table) {
             $table->id('id_DetallesFacturas');
+            $table->string('cedula_ruc');
             $table->unsignedBigInteger('factura_id');
             $table->string('nombre_producto');
             $table->double('precio_producto', 8, 2);

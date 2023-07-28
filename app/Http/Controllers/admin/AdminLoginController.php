@@ -14,6 +14,11 @@ class AdminLoginController extends Controller
     // Método para mostrar el formulario de login para el administrador
     public function showLoginForm()
     {
+        // Verificar si ya hay una sesión activa para el guard 'admin'
+        if (Auth::guard('admin')->check()) {
+            return redirect($this->redirectTo);
+        }
+
         return view('admin.login.index');
     }
 

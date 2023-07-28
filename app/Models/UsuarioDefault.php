@@ -9,6 +9,9 @@ use Illuminate\Notifications\Notifiable;
 class UsuarioDefault extends Authenticatable
 {
     use HasFactory, Notifiable;
+    
+    protected $table = 'tb_usuario_default'; // Nombre de la tabla en la base de datos
+
 
     protected $fillable = [
         'cedula_ruc',
