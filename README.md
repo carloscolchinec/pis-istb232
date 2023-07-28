@@ -20,7 +20,28 @@
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/016c0eea-b951-401f-b909-d27b35e50e02)
 
+*FRONT-END ADMINISTRACIÓN VISUAL DE PARTE DE EMPRESAS*
 
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/516a18b1-1922-401c-8949-36793fc66ddd)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/b97670e0-367e-4203-bc4e-c2783925f43b)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/0a827dfb-f943-42f1-94bd-f1213679c23a)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/595dcc30-53ed-445f-a051-fb7d667a263f)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/02a6501a-6807-4ecc-90d7-cb9e22296889)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/e5d4c031-e2a1-405d-b79f-4fa62e31031b)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/ff489e26-fc23-4385-90bd-a3fa5944f220)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/d1706c13-d158-4cf6-a00a-12319987eb7f)
+
+![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/0268e655-3eb7-4c65-b3e7-2e13ed6de37f)
+
+
+*Observación:* LOS DATOS INGRESADOS COMO RUC SON REALES YA QUE CONECTAN DIRECTAMENTE A LA OBTENCIÓN DE DATOS DEL SRI
 
 
 
