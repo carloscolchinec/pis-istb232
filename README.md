@@ -35,7 +35,9 @@
 
 ![image](https://github.com/carloscolchinec/pis-istb232/assets/75394232/98330a59-50c0-4670-9e3b-fd706d2b744b)
 
+*DML DEL SISTEMA*
 
+![DBML Table (Community) (1)](https://github.com/carloscolchinec/pis-istb232/assets/75394232/75921eba-5645-488e-9285-6499fdbaf8ec)
 
 
 *Observación:* LOS DATOS INGRESADOS COMO RUC SON REALES YA QUE CONECTAN DIRECTAMENTE A LA OBTENCIÓN DE DATOS DEL SRI
