@@ -1,4 +1,4 @@
-<center>
+<center style="text-align: center">
 
 ![logo](https://github.com/carloscolchinec/pis-istb232/assets/75394232/d03090a6-02f3-40d7-8612-7fa03ba05591)
 
