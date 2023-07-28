@@ -15,6 +15,7 @@ class CreateTbUsuarioFacturasTable extends Migration
     {
         Schema::create('tb_Usuario_Facturas', function (Blueprint $table) {
             $table->id('id_factura');
+            $table->string('cedula_ruc');
             $table->string('cedula_cliente');
             $table->double('total_factura', 8, 2);
             $table->date('fecha_factura');
