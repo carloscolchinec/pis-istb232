@@ -47,8 +47,8 @@ class ClientesProductosController extends Controller
             'descripcion_producto' => 'required|string',
             'fecha_de_caducidad' => 'required|date',
             'stock_producto' => 'required|integer',
-            'precio_unitario' => 'required|numeric', // Agregamos la validación para el precio unitario
-            'categoria_id' => 'required|exists:tb_Usuario_Productos_Categorias,id_categoria',
+            'precio_unitario' => 'required|numeric',
+            'categoria_id' => 'nullable|exists:tb_Usuario_Productos_Categorias,id_categoria',
         ]);
     
         // Agregamos la cédula_ruc del usuario al request antes de crear el producto
@@ -59,6 +59,7 @@ class ClientesProductosController extends Controller
     
         return redirect()->route('enterprise.productos.index')->with('success', 'Producto creado exitosamente.');
     }
+    
 
     public function show(UsuarioProductos $producto)
     {

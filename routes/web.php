@@ -14,7 +14,8 @@ use App\Http\Controllers\Emp\ClientesController;
 use App\Http\Controllers\Emp\ClientesProductosCategoriasController;
 use App\Http\Controllers\Emp\ClientesProductosController;
 use App\Http\Controllers\Emp\ClientesFacturasController;
-
+use App\Http\Controllers\emp\ClientesProveedoresController;
+use App\Http\Controllers\Emp\ProveedoresIngresoProductosController;
 
 
 Route::get('/', function () {
@@ -79,6 +80,23 @@ Route::middleware('web')->group(function () {
     Route::get('/enterprise/facturas/{categoria}/edit', [ClientesFacturasController::class, 'edit'])->name('enterprise.facturas.edit');
     Route::put('/enterprise/facturas/{categoria}', [ClientesFacturasController::class, 'update'])->name('enterprise.facturas.update');
     Route::delete('/enterprise/facturas/{categoria}', [ClientesFacturasController::class, 'destroy'])->name('enterprise.facturas.destroy');
+
+    Route::get('/enterprise/proveedores', [ClientesProveedoresController::class, 'index'])->name('enterprise.proveedores.index');
+    Route::get('/enterprise/proveedores/create', [ClientesProveedoresController::class, 'create'])->name('enterprise.proveedores.create');
+    Route::post('/enterprise/proveedores', [ClientesProveedoresController::class, 'store'])->name('enterprise.proveedores.store');
+    Route::get('/enterprise/proveedores/{proveedor}', [ClientesProveedoresController::class, 'show'])->name('enterprise.proveedores.show');
+    Route::get('/enterprise/proveedores/{proveedor}/edit', [ClientesProveedoresController::class, 'edit'])->name('enterprise.proveedores.edit');
+    Route::put('/enterprise/proveedores/{proveedor}', [ClientesProveedoresController::class, 'update'])->name('enterprise.proveedores.update');
+    Route::delete('/enterprise/proveedores/{proveedor}', [ClientesProveedoresController::class, 'destroy'])->name('enterprise.proveedores.destroy');
+
+    Route::get('/enterprise/ingreso-productos', [ProveedoresIngresoProductosController::class, 'index'])->name('enterprise.ingreso-productos.index');
+    Route::get('/enterprise/ingreso-productos/create', [ProveedoresIngresoProductosController::class, 'create'])->name('enterprise.ingreso-productos.create');
+    Route::post('/enterprise/ingreso-productos', [ProveedoresIngresoProductosController::class, 'store'])->name('enterprise.ingreso-productos.store');
+    Route::get('/enterprise/ingreso-productos/{proveedor}', [ProveedoresIngresoProductosController::class, 'show'])->name('enterprise.ingreso-productos.show');
+    Route::get('/enterprise/ingreso-productos/{proveedor}/edit', [ProveedoresIngresoProductosController::class, 'edit'])->name('enterprise.ingreso-productos.edit');
+    Route::put('/enterprise/ingreso-productos/{proveedor}', [ProveedoresIngresoProductosController::class, 'update'])->name('enterprise.ingreso-productos.update');
+    Route::delete('/enterprise/ingreso-productos/{proveedor}', [ProveedoresIngresoProductosController::class, 'destroy'])->name('enterprise.ingreso-productos.destroy');
+
 
 
 });

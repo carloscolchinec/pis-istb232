@@ -21,7 +21,7 @@
             </div>
             <div class="form-group">
                 <label for="precio_unitario">Precio Unitario del Producto:</label>
-                <input type="number" name="precio_unitario" class="form-control" required>
+                <input type="TEXT" name="precio_unitario" class="form-control" placeholder="0.00" required>
             </div>
             <div class="form-group">
                 <label for="fecha_de_caducidad">Fecha de Caducidad:</label>
@@ -33,8 +33,8 @@
             </div>
             <div class="form-group">
                 <label for="categoria_id">Categoría:</label>
-                <select name="categoria_id" id="categoria_id" class="form-control" required>
-                    <option value="">Seleccione una categoría</option>
+                <select name="categoria_id" id="categoria_id" class="form-control">
+                    <option selected>Seleccione una categoría</option>
                     @foreach($categorias as $categoria)
                         <option value="{{ $categoria->id_categoria }}">{{ $categoria->nombre_categoria }}</option>
                     @endforeach

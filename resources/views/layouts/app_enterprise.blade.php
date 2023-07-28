@@ -165,15 +165,15 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="{{ route('enterprise.proveedores.index') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Agregar Proveedor</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/charts/chartjs.html" class="nav-link">
+                                    <a href="{{ route('enterprise.ingreso-productos.index') }}" class="nav-link disabled text-muted">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Listas Proveedores</p>
+                                        <p>Ingreso de Productos</p>
                                     </a>
                                 </li>
                             </ul>
